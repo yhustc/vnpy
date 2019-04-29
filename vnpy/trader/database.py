@@ -96,7 +96,7 @@ class DbTickData(Model):
     open_price = FloatField()
     high_price = FloatField()
     low_price = FloatField()
-    close_price = FloatField()
+    pre_close = FloatField()
 
     bid_price_1 = FloatField()
     bid_price_2 = FloatField()
